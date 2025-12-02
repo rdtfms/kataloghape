@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebHape - Katalog HP Premium</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <h1>WebHape<span class="dot">.</span></h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Cari HP impianmu...">
+                <button id="searchBtn"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="cart-icon" id="cartBtn">
+                <i class="fas fa-shopping-bag"></i>
+                <span class="cart-count" id="cartCount">0</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <h2>Temukan Smartphone Terbaik</h2>
+                <p>Koleksi lengkap gadget terbaru dengan harga terbaik.</p>
+            </div>
+        </section>
+
+        <section class="catalog container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="Samsung">Samsung</button>
+                <button class="filter-btn" data-filter="Apple">Apple</button>
+                <button class="filter-btn" data-filter="Xiaomi">Xiaomi</button>
+                <button class="filter-btn" data-filter="Oppo">Oppo</button>
+                <button class="filter-btn" data-filter="Vivo">Vivo</button>
+            </div>
+            <div class="product-grid" id="productGrid">
+                <!-- Products will be rendered here -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Cart Modal -->
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h3>Keranjang Belanja</h3>
+                <button class="close-cart" id="closeCart"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="cart-items" id="cartItems">
+                <!-- Cart items will be rendered here -->
+                <div class="empty-cart-msg">Keranjang masih kosong</div>
+            </div>
+            <div class="cart-footer">
+                <div class="total-price">
+                    <span>Total:</span>
+                    <span id="cartTotal">Rp 0</span>
+                </div>
+                <button class="checkout-btn" id="checkoutBtn">
+                    <i class="fab fa-whatsapp"></i> Order via WhatsApp
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="overlay" id="overlay"></div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 WebHape. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
