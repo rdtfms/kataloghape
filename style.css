@@ -512,7 +512,7 @@ footer p {
 
   .cart-icon {
     flex: 0 1 auto;
-    position: static;
+    position: relative;
   }
 
   .cart-icon i {
