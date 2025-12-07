@@ -97,21 +97,21 @@ const products = [
     name: "Samsung Galaxy S23 Ultra",
     brand: "Samsung",
     price: 19200000,
-    image: "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1716369654.51525246.png",
+    image: "images/samsung_s23ultra.png",
   },
   {
     id: 14,
     name: "Samsung Galaxy Z Fold 7",
     brand: "Samsung",
     price: 25000000,
-    image: "https://image.oppo.com/content/dam/oppo/common/mkt/v2-2/a79-5g/navigation/A79-5G-purple-427_600.png",
+    image: "images/samsung_zfold7.png",
   },
   {
     id: 15,
     name: "Vivo V30e",
     brand: "Vivo",
     price: 4300000,
-    image: "https://id-live-01.slatic.net/p/7e9f4687588720130983196025208630.jpg",
+    image: "images/vivo_v30e.png",
   },
   {
     id: 16,
@@ -119,7 +119,7 @@ const products = [
     brand: "Vivo",
     price: 3800000,
     image:
-      "https://images.samsung.com/is/image/samsung/p6pim/id/sm-s711blgbxid/gallery/id-galaxy-s23-fe-s711-sm-s711blgbxid-538367500?$650_519_PNG$",
+      "images/vivo_y100.png",
   },
   {
     id: 17,
@@ -127,14 +127,14 @@ const products = [
     brand: "Vivo",
     price: 2100000,
     image:
-      "https://ibox.co.id/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/i/p/iphone_13_midnight_pdp_image_position-1__en-us.jpg",
+      "images/vivo_y17s.png",
   },
   {
     id: 18,
     name: "Vivo Y27s",
     brand: "Vivo",
     price: 3000000,
-    image: "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1708678954.91522834.png",
+    image: "images/vivo_y27s.png",
   },
   {
     id: 19,
@@ -142,14 +142,14 @@ const products = [
     brand: "Oppo",
     price: 4200000,
     image:
-      "https://image.oppo.com/content/dam/oppo/common/mkt/v2-2/find-n3-flip/navigation/Find-N3-Flip-black-427_600.png",
+      "images/oppo_reno11.png",
   },
   {
     id: 20,
     name: "Oppo Reno11 F",
     brand: "Oppo",
     price: 4400000,
-    image: "https://id-live-01.slatic.net/p/5e9f4687588720130983196025208630.jpg",
+    image: "images/oppo_reno11f.png",
   },
   {
     id: 21,
@@ -157,7 +157,7 @@ const products = [
     brand: "Oppo",
     price: 3900000,
     image:
-      "https://images.samsung.com/is/image/samsung/p6pim/id/sm-a356elbdxid/gallery/id-galaxy-a35-5g-sm-a356-sm-a356elbdxid-540192080?$650_519_PNG$",
+      "images/oppo_a79.png",
   },
   {
     id: 22,
@@ -165,14 +165,14 @@ const products = [
     brand: "Oppo",
     price: 2200000,
     image:
-      "https://ibox.co.id/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/i/p/iphone_12_purple_pdp_image_position-1__en-us.jpg",
+      "images/oppo_a38.png",
   },
   {
     id: 23,
     name: "Realme C53",
     brand: "Realme",
     price: 2300000,
-    image: "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1706167654.91522834.png",
+    image: "images/realme_c53.png",
   },
   {
     id: 24,
@@ -180,14 +180,14 @@ const products = [
     brand: "Realme",
     price: 2600000,
     image:
-      "https://image.oppo.com/content/dam/oppo/common/mkt/v2-2/reno10-5g/navigation/Reno10-5G-ice-blue-427_600.png",
+      "images/realme_c55.png",
   },
   {
     id: 25,
     name: "Redmi A5",
     brand: "Xiaomi",
     price: 1200000,
-    image: "https://id-live-01.slatic.net/p/2e9f4687588720130983196025208630.jpg",
+    image: "images/redmi_a5.png",
   },
   {
     id: 26,
@@ -195,7 +195,7 @@ const products = [
     brand: "Realme",
     price: 5800000,
     image:
-      "https://images.samsung.com/is/image/samsung/p6pim/id/sm-m546bzsdkid/gallery/id-galaxy-m54-5g-sm-m546-sm-m546bzsdkid-536350688?$650_519_PNG$",
+      "images/realme_gtneo6.png",
   },
   {
     id: 27,
@@ -203,28 +203,28 @@ const products = [
     brand: "Infinix",
     price: 1900000,
     image:
-      "https://ibox.co.id/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/i/p/iphone_11_white_pdp_image_position-1__en-us.jpg",
+      "images/infinix_hote40i.png",
   },
   {
     id: 28,
     name: "Infinix Note 40",
     brand: "Infinix",
     price: 2900000,
-    image: "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1701932464.71752834.png",
+    image: "images/infinix_note40.png",
   },
   {
     id: 29,
     name: "Infinix Zero 30",
     brand: "Infinix",
     price: 4300000,
-    image: "https://image.oppo.com/content/dam/oppo/common/mkt/v2-2/a58/navigation/A58-green-427_600.png",
+    image: "images/infinix_zero30.png",
   },
   {
     id: 30,
     name: "Tecno Spark 40 Pro+",
     brand: "Tecno",
     price: 2400000,
-    image: "https://id-live-01.slatic.net/p/1e9f4687588720130983196025208630.jpg",
+    image: "images/tecno_spark40proplus.png",
   },
 ]
 
